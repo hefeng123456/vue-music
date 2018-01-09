@@ -19,5 +19,6 @@ export function param(data) {
     url += '&' + k + '=' + encodeURIComponent(value)
   }
   url = url;
+  url = url;
   return url ? url.substring(1) : ''
 }
