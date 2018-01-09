@@ -18,5 +18,6 @@ export function param(data) {
     let value = data[k] !== undefined ? data[k] : ''
     url += '&' + k + '=' + encodeURIComponent(value)
   }
+  url = url;
   return url ? url.substring(1) : ''
 }
